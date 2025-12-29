@@ -64,7 +64,7 @@ Summary of hardware evolution:
     - Use expensive microcontroller and display
     - Bluetooth module and battery management module are integrate inside microcontroller
     - Shares the switch and encoders stripboard with v0.0
-    - Disassambled to reuse some parts (microcontroller and display) to my own build of v0.3
+    - Disassembled to reuse some parts (microcontroller and display) to my own build of v0.3
 - **v0.1 (never built)**
     - Scrapped at the design stage and never built
 - **v0.0**
