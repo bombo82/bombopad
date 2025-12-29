@@ -1,0 +1,11 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12";"ComboDiode";12;"";;;
+2;"J1";"Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal";1;"Conn_01x02";;;
+3;"J2";"Molex_PicoBlade_53048-0310_1x03_P1.25mm_Horizontal";1;"Conn_01x03";;;
+4;"MCU1";"ProMicro";1;"";;;
+5;"Nice!View1";"niceview_headers";1;"";;;
+6;"ROL1,ROL2";"RollerEncoder_Panasonic_EVQWGD001";2;"";;;
+7;"ROT1,ROT2";"rotary_encoder";2;"";;;
+8;"S13";SW_Push_1P1T_NO_6x6mm_H9.5mm;1;"SW_Push_Dual_x2";;;
+9;"S1,S2,S3,S4,S5,S6,S7,S8,S9,S10";"PG1350";10;"";;;
+10;"SW15";"SW_CK_JS202011AQN_DPDT_Angled";1;"SW_DPDT_x2";;;
