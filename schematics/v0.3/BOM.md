@@ -30,3 +30,13 @@ This Bill of Materials is compliant with OSHWA (Open Source Hardware Association
   switches if no encoders are used.
 - **Microcontroller**: For wired use, use a Pro Micro (USB-C recommended). For wireless use, use a nice!nano.
 - **Diodes**: Any 1N4148 diode will work. Diodes can be SMD (SOD-123 package) or through-hole.
+
+## License
+
+Copyright (C) 2024-2025 Gianni Bombelli <bombo82@giannibombelli.it>
+
+This document is part of the BomboPad hardware design and is licensed under CERN Open Hardware Licence as published by
+the CERN, either version 2 of the Licence, or (at your option) any later version.
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S
+v2 (https://ohwr.org/cern_ohl_s_v2.txt).
