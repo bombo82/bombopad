@@ -11,10 +11,10 @@ The current hardware version (**v0.3**) includes:
 
 - **12 keys**: Designed for Kailh Choc v1 low-profile switches.
 - **Dual Rotary Encoders**: Supports EC11 or EVQWGD001 encoders.
-- **Display Support**: Compatible with SSD1306 128x32 OLED or nice!view displays.
+- **Display Support**: Compatible with SSD1306 128x32 OLED or Nice!View displays.
 - **Microcontroller Compatibility**:
     - **Pro Micro** (or compatible) for wired builds.
-    - **nice!nano** (or compatible) for wireless Bluetooth builds.
+    - **Nice!Nano** (or compatible) for wireless Bluetooth builds.
 - **Battery Management**: Optional Li-Po battery and dedicated power switch for wireless operation.
 
 ## Getting Started (v0.3)
@@ -26,7 +26,7 @@ To build your own BomboPad, follow these steps:
 - **PCB**: You can order the PCB using the provided [Gerber files](./gerbers/v0.3).
 - **Components**: Refer to the **[Bill of Materials (BOM)](./schematics/v0.3/BOM.md)** for a complete list of required
   parts (switches, encoders, diodes, etc.).
-- **Microcontroller**: Pro Micro or nice!nano.
+- **Microcontroller**: Pro Micro or Nice!Nano.
 
 ### 2. Assembly
 
@@ -39,7 +39,7 @@ Choose the firmware that best fits your needs:
 
 - **[QMK Firmware](https://github.com/bombo82/qmk_bombopad)**: Best for wired builds using a Pro Micro. Supports
   advanced features and optionally VIAL for real-time configuration.
-- **[ZMK Firmware](https://github.com/bombo82/zmk-bombopad)**: Recommended for wireless builds using a nice!nano.
+- **[ZMK Firmware](https://github.com/bombo82/zmk-bombopad)**: Recommended for wireless builds using a Nice!Nano.
 
 ## Project Structure
 
@@ -55,7 +55,7 @@ Summary of hardware evolution:
     - First version with PCB
     - Wired build using ProMicro compatible microcontroller with QMK or VIAL firmware
     - Wireless build using Nice!Nano compatible microcontroller with ZMK firmware
-    - Kailh choc low-profile switch
+    - Kailh Choc v1 low-profile switch
     - EC11 rotary encoders or EVQWGD001 encoders
     - Optional display: SSD1306 128x32 on ProMicro microcontroller or Nice!View on Nice!Nano
     - Optional Lipo battery and power switch, depends on microcontroller capabilities

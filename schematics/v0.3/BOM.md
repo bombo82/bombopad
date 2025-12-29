@@ -9,8 +9,8 @@ This Bill of Materials is compliant with OSHWA (Open Source Hardware Association
 | D1-D12     | Switching Diode                    | 12       | SOD-123 / Through-hole | Generic                     | 1N4148W                    |
 | J1         | Battery Connector 2-pin (Optional) | 1        | Molex PicoBlade 1.25mm | Molex                       | 53048-0210                 |
 | J2         | Battery Connector 3-pin (Optional) | 1        | Molex PicoBlade 1.25mm | Molex                       | 53048-0310                 |
-| MCU1       | Microcontroller Module             | 1        | Pro Micro / nice!nano  | Generic / Nice Technologies | Pro Micro / nice!nano      |
-| Display    | Display Module (Optional)          | 1        | niceview_headers       | Generic / Nice Technologies | SSD1306 128x32 / nice!view |
+| MCU1       | Microcontroller Module             | 1        | Pro Micro / Nice!Nano  | Generic / Nice Technologies | Pro Micro / Nice!Nano      |
+| Display    | Display Module (Optional)          | 1        | niceview_headers       | Generic / Nice Technologies | SSD1306 128x32 / Nice!View |
 | ROL1, ROL2 | Roller Encoder (Optional)          | 2        | EVQWGD001              | Panasonic                   | EVQWGD001                  |
 | ROT1, ROT2 | Rotary Encoder (Optional)          | 2        | EC11                   | Generic                     | EC11                       |
 | S1-S10     | Low Profile Switches               | 10       | Kailh Choc v1 (PG1350) | Kailh                       | PG1350                     |
@@ -22,13 +22,13 @@ This Bill of Materials is compliant with OSHWA (Open Source Hardware Association
 
 - **Display**: The OLED (SSD1306 128x32) and Memory Display (Nice!View) are both optional and mutually exclusive
   alternatives. Choose one based on your microcontroller: the OLED is typically used with Pro Micro, while the Nice!View
-  is designed for nice!nano.
+  is designed for Nice!Nano.
 - **Encoders**: The EC11 rotary encoders and EVQWGD001 roller encoders are optional and mutually exclusive
-  alternatives. If neither type of encoder is installed, it is recommended to use 2 additional Kailh Choc switches
+  alternatives. If neither type of encoder is installed, it is recommended to use 2 additional Kailh Choc v1 switches
   (S11 and S12) instead.
-- **Switches**: S11 and S12 can be either the integrated push-buttons of the encoders or two standard Kailh Choc
+- **Switches**: S11 and S12 can be either the integrated push-buttons of the encoders or two standard Kailh Choc v1
   switches if no encoders are used.
-- **Microcontroller**: For wired use, use a Pro Micro (USB-C recommended). For wireless use, use a nice!nano.
+- **Microcontroller**: For wired use, use a Pro Micro (USB-C recommended). For wireless use, use a Nice!Nano.
 - **Diodes**: Any 1N4148 diode will work. Diodes can be SMD (SOD-123 package) or through-hole.
 
 ## License
