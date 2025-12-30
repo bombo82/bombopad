@@ -14,6 +14,8 @@ The current hardware version (**v0.3**) includes:
 - **Display Support**: Compatible with SSD1306 128x32 OLED or Nice!View displays.
 - **Microcontroller Compatibility**:
     - **Pro Micro** (or compatible) for wired builds.
+        - **ATmega32U4**: Fully tested and regularly used.
+        - **RP2040**: Functionality verified, but not exhaustively tested.
     - **Nice!Nano** (or compatible) for wireless Bluetooth builds.
 - **Battery Management**: Optional Li-Po battery and dedicated power switch for wireless operation.
 
@@ -26,7 +28,7 @@ To build your own BomboPad, follow these steps:
 - **PCB**: You can order the PCB using the provided [Gerber files](./gerbers/v0.3).
 - **Components**: Refer to the **[Bill of Materials (BOM)](./schematics/v0.3/BOM.md)** for a complete list of required
   parts (switches, encoders, diodes, etc.).
-- **Microcontroller**: Pro Micro or Nice!Nano.
+- **Microcontroller**: Pro Micro (ATmega32U4 or RP2040) or Nice!Nano.
 
 ### 2. Assembly
 
@@ -37,7 +39,7 @@ KiCad format).
 
 Choose the firmware that best fits your needs:
 
-- **[QMK Firmware](https://github.com/bombo82/qmk_bombopad)**: Best for wired builds using a Pro Micro. Supports
+- **[QMK Firmware](https://github.com/bombo82/qmk_firmware/blob/bombopad/keyboards/handwired/bombopad/readme.md)**: Best for wired builds using a Pro Micro. Supports
   advanced features and optionally VIAL for real-time configuration.
 - **[ZMK Firmware](https://github.com/bombo82/zmk-bombopad)**: Recommended for wireless builds using a Nice!Nano.
 

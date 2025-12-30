@@ -11,8 +11,8 @@ This Bill of Materials is compliant with OSHWA (Open Source Hardware Association
 | J2         | Battery Connector 3-pin (Optional) | 1        | Molex PicoBlade 1.25mm | Molex                       | 53048-0310                 |
 | MCU1       | Microcontroller Module             | 1        | Pro Micro / Nice!Nano  | Generic / Nice Technologies | Pro Micro / Nice!Nano      |
 | Display    | Display Module (Optional)          | 1        | niceview_headers       | Generic / Nice Technologies | SSD1306 128x32 / Nice!View |
-| ROL1, ROL2 | Roller Encoder (Optional)          | 2        | EVQWGD001              | Panasonic                   | EVQWGD001                  |
-| ROT1, ROT2 | Rotary Encoder (Optional)          | 2        | EC11                   | Generic                     | EC11                       |
+| ROL1, ROL2 | Encoder (Optional)                 | 2        | EVQWGD001              | Panasonic                   | EVQWGD001                  |
+| ROT1, ROT2 | Encoder (Optional)                 | 2        | EC11                   | Generic                     | EC11                       |
 | S1-S10     | Low Profile Switches               | 10       | Kailh Choc v1 (PG1350) | Kailh                       | PG1350                     |
 | S11-S12    | Low Profile Switches (Optional)    | 2        | Kailh Choc v1 (PG1350) | Kailh                       | PG1350                     |
 | S13        | Reset Button                       | 1        | 6x6mm Tactile Switch   | Generic                     | SW_Push_1P1T               |
@@ -28,7 +28,11 @@ This Bill of Materials is compliant with OSHWA (Open Source Hardware Association
   (S11 and S12) instead.
 - **Switches**: S11 and S12 can be either the integrated push-buttons of the encoders or two standard Kailh Choc v1
   switches if no encoders are used.
-- **Microcontroller**: For wired use, use a Pro Micro (USB-C recommended). For wireless use, use a Nice!Nano.
+- **Microcontroller**:
+    - Use a Pro Micro for wired setups (USB-C recommended):
+        - MCU with `ATmega32U4` processor is fully tested and regularly used.
+        - MCU with `RP2040` processor is verified and works fine, but not exhaustively tested.
+    - Use a Nice!Nano for wireless setups.
 - **Diodes**: Any 1N4148 diode will work. Diodes can be SMD (SOD-123 package) or through-hole.
 
 ## License
