@@ -32,7 +32,9 @@ This Bill of Materials is compliant with OSHWA (Open Source Hardware Association
     - Use a Pro Micro for wired setups (USB-C recommended):
         - MCU with `ATmega32U4` processor is fully tested and regularly used.
         - MCU with `RP2040` processor is verified and works fine, but not exhaustively tested.
-    - Use a Nice!Nano for wireless setups.
+    - Use a Nice!Nano compatible for wireless setups:
+        - Nice!Nano v2 MCU is fully tested and regularly used.
+        - SuperMini NRF52840 MCU is verified and works fine, but not exhaustively tested.
 - **Diodes**: Any 1N4148 diode will work. Diodes can be SMD (SOD-123 package) or through-hole.
 
 ## License

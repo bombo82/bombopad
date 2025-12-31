@@ -23,24 +23,27 @@ The current hardware version (**v0.3**) includes:
 
 To build your own BomboPad, follow these steps:
 
-### 1. Hardware Requirements
+### Hardware Requirements
 
 - **PCB**: You can order the PCB using the provided [Gerber files](./gerbers/v0.3).
 - **Components**: Refer to the **[Bill of Materials (BOM)](./schematics/v0.3/BOM.md)** for a complete list of required
   parts (switches, encoders, diodes, etc.).
-- **Microcontroller**: Pro Micro (ATmega32U4 or RP2040) or Nice!Nano.
+- **Microcontroller**: Pro Micro (ATmega32U4 or RP2040) or Nice!Nano compatible.
 
-### 2. Assembly
+### Assembly
 
 The electrical schematics and PCB layout files are available in the **[schematics/](./schematics/v0.3)** directory (
 KiCad format).
 
-### 3. Firmware
+### Firmware
 
 Choose the firmware that best fits your needs:
 
-- **[QMK Firmware](https://github.com/bombo82/qmk_firmware/blob/bombopad/keyboards/handwired/bombopad/readme.md)**: Best for wired builds using a Pro Micro. Supports
-  advanced features and optionally VIAL for real-time configuration.
+- **[QMK Firmware](https://github.com/bombo82/qmk_firmware/blob/bombopad/keyboards/handwired/bombopad/readme.md)**: Best
+  for wired builds using a Pro Micro.
+- **[VIAL Firmware](https://github.com/bombo82/vial-qmk/blob/bombopad/keyboards/handwired/bombopad/readme.md)**: Best
+  for wired builds using a Pro Micro. Supports advanced features using VIAL for real-time configuration. See
+  the firmware dedicate [release page](https://github.com/bombo82/vial-qmk/releases) for pre-compiled binaries.
 - **[ZMK Firmware](https://github.com/bombo82/zmk-bombopad)**: Recommended for wireless builds using a Nice!Nano.
 
 ## Project Structure
